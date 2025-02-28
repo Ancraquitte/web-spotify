@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Iniciar Sesión</title>
+     <link rel="stylesheet" href="inicio.css">
+</head>
+
+<body>
+     <div class="login-container">
+          <div class="login-header">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
+                    alt="Spotify Logo" class="logo">
+               <h1>Inicia sesión en Spotify</h1>
+          </div>
+
+          <div class="social-login">
+               <button class="social-btn google" a href="">Continuar con Google</button>
+               <button class="social-btn facebook">Continuar con Facebook</button>
+               <button class="social-btn apple">Continuar con Apple</button>
+          </div>
+
+          <div class="divider"></div>
+
+          <form class="login-form">
+               <label for="email">Correo electrónico o nombre de usuario</label>
+               <input type="email" id="email" placeholder="Correo electrónico o nombre de usuario" required>
+
+               <label for="password">Contraseña</label>
+               <div class="password-wrapper">
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <button type="button" id="toggle-password">👁️</button>
+               </div>
+
+               <button class="login-btn" type="submit">Iniciar sesión</button>
+          </form>
+
+          <a href="https://accounts.spotify.com/es/password-reset?flow_ctx=ede82dbb-2883-4e7e-8d9d-d9e783d082d7%3A1732226591" class="forgot-password">¿Se te ha olvidado la contraseña?</a>
+     </div>
+
+     <script src="script.js"></script>
+</body>
+
+</html>

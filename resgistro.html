@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Registro</title>
+     <link rel="stylesheet" href="registro.css">
+</head>
+
+<body>
+     <div class="register-container">
+          <div class="register-header">
+               <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg"
+                    alt="Spotify Logo" class="logo">
+               <h1>Regístrate para empezar a escuchar contenido</h1>
+          </div>
+
+          <form class="register-form">
+               <label for="email">Dirección de correo electrónico</label>
+               <input type="email" id="email" placeholder="nombre@dominio.com" required>
+               <a href="https://accounts.spotify.com/es/login/phone?intent=signup&continue=https%3A%2F%2Fopen.spotify.com%2Fintl-es%3Fflow_ctx%3D574e7154-94b9-4cd7-9db6-38a0634d27aa%253A1732228613&creation_point=https%3A%2F%2Fopen.spotify.com%2F%3Fsp_cid%3D43ef3e499f6c9331e0cdbf893be729e9%26device%3Ddesktop&flow_ctx=574e7154-94b9-4cd7-9db6-38a0634d27aa:1732228613" class="use-phone">Usa un número de teléfono en su lugar.</a>
+
+               <button class="next-btn" type="submit">Siguiente</button>
+          </form>
+
+          <div class="divider"></div>
+
+          <div class="social-register">
+               <button class="social-btn google">Registrarte con Google</button>
+               <button class="social-btn facebook">Registrarte con Facebook</button>
+               <button class="social-btn apple" >Registrarte con Apple</button>
+          </div>
+
+          <p class="login-link">¿Ya tienes una cuenta? <a href="inicio.html">Inicia sesión aquí</a></p>
+     </div>
+
+     <script src="registro.js"></script>
+</body>
+
+</html>
